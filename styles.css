@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.search{
+.search.active{
 	width:100%;
 	background-color:#765BEE;
 	height:250px;
