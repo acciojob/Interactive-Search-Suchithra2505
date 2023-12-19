@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.search.active{
+.search{
 	width:100%;
 	background-color:#765BEE;
 	height:250px;
@@ -7,6 +7,9 @@
 	justify-content:center;
 	align-items:center;
 	border:none;
+}
+.search.active {
+  border-color: #007bff;
 }
 input, button{
 	border:none;
