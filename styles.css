@@ -1,24 +1,30 @@
 /*  your css code here. If applicable */
-.search {
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 200px;
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
-/* Active state of the search component */
-.search.active {
-  border-color: #007bff;
+.search {
+  display: flex;
+  align-items: center;
 }
 
 .input {
-  padding: 5px;
-  margin-right: 5px;
+  padding: 8px;
+  font-size: 16px;
 }
 
 .btn {
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
   cursor: pointer;
+}
+
+.search.active {
+  background-color: #f0f0f0;
 }
